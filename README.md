@@ -14,7 +14,9 @@ For retransmissions, the code considers an ACK sent more than once as a retransm
 
 ## Libraries used:
 dpkt - for parsing PCAP data
+
 socket - for converting inet objects into strings (for IP addresses)
+
 collections.namedtuple - for creating a TCP connection 4-tuple data structure
 
 ## How to run:
